@@ -1,96 +1,105 @@
 const flashcards = [
-  // --- PYTANIE 3: METODY WZMACNIANIA ---
+  // --- PYTANIE 1: ZBROJENIE USKOKU NAZIOMU ---
   {
-    cat: 'Zagęszczanie',
-    q: 'Metoda Menarda - mechanizm i grunt?',
-    a: 'Zrzucanie ciężarów (10-30 t) z wysokości do 30 m. Stosowana dla GRUNTÓW NIESPOISTYCH. Dogęszcza falą uderzeniową.',
+    cat: 'Zbrojenie',
+    q: 'Metody prętowe - co wchodzi w skład?',
+    a: 'Taśmy, gwoździe gruntowe (pręty stabilizujące skarpę), kotwy oraz mikropale (przenoszące obciążenia na głębsze warstwy).',
   },
   {
-    cat: 'Zagęszczanie',
-    q: 'Walce inne niż cylindryczne (wieloboczne)?',
-    a: 'Działają przez dynamiczny nacisk punktowy i uderzenia, co pozwala na głębsze zagęszczenie warstw nasypu niż walce gładkie.',
+    cat: 'Zbrojenie',
+    q: 'Metody przeponowe - materiały?',
+    a: 'Geotkaniny i georuszty układane warstwowo wewnątrz nasypu.',
   },
   {
-    cat: 'Zagęszczanie',
-    q: 'Zagęszczanie impulsowe (RIC)?',
-    a: 'Szybkie uderzenia młota hydraulicznego w stalową stopę na gruncie. Skuteczne do ok. 4-6 m głębokości.',
+    cat: 'Zbrojenie',
+    q: 'Metody szkieletowe - rodzaje?',
+    a: 'Kaszyce (drewniane skrzynie) i gabiony (kosze stalowe wypełnione kamieniem).',
   },
   {
-    cat: 'Zagęszczanie',
-    q: 'Wibroflotacja?',
-    a: "Metoda wgłębna dla piasków. Wibrator i płuczka 'rozpłynniają' ziarna, wymuszając ich ciasne upakowanie.",
+    cat: 'Zbrojenie',
+    q: 'Co to jest TEXSOL?',
+    a: "Mieszanka piasku i ciągłych włókien syntetycznych, która 'zszywa' ziarna, dając gruntowi spójność.",
   },
   {
-    cat: 'Zagęszczanie',
-    q: 'Zagęszczanie wybuchami?',
-    a: 'Stosowane w nawodnionych piaskach luźnych. Detonacja wgłębna powoduje upłynnienie i gwałtowne osiadanie gruntu.',
-  },
-  {
-    cat: 'Wymiana',
-    q: 'Kolumny GEC - rola geotkaniny?',
-    a: "Zamyka piasek w 'rurze', ograniczając jego boczne rozpieranie. Pozwala kolumnie pracować w miękkich torfach/namułach.",
-  },
-  {
-    cat: 'Wymiana',
-    q: 'Wymiana dynamiczna?',
-    a: 'Wybijanie kraterów ciężarem i wypełnianie ich kruszywem, tworząc wielkośrednicowe kolumny kamienne w słabym gruncie.',
-  },
-  {
-    cat: 'Prekonsolidacja',
-    q: 'Dreny pionowe (taśmowe) - po co?',
-    a: 'Skracają drogę odpływu wody w GRUNTACH SPOISTYCH (gliny/iły). Przyspieszają osiadanie z lat do miesięcy.',
-  },
-  {
-    cat: 'Prekonsolidacja',
-    q: 'Elektroosmoza?',
-    a: 'Prąd stały wymusza ruch wody w mikroporach IŁÓW w stronę katody, przyspieszając ich osuszanie.',
-  },
-  {
-    cat: 'Cementacja',
-    q: 'Nasycanie vs Szczelinowanie?',
-    a: "Nasycanie: wypełnianie wolnych porów (żwiry). Szczelinowanie: rozrywanie gruntu ciśnieniem i tworzenie 'żył' betonowych.",
-  },
-  {
-    cat: 'Cementacja',
-    q: 'Iniekcja zagęszczająca (Compaction Grouting)?',
-    a: "Gęsta mieszanka tworzy 'balon', który nie miesza się z gruntem, ale go mechanicznie rozpiera i dogęszcza.",
-  },
-  {
-    cat: 'Cementacja',
-    q: 'Jet-grouting (Metoda niszczenia)?',
-    a: 'Struga pod ogromnym ciśnieniem całkowicie niszczy strukturę gruntu, mieszając go z cementem w kolumnę.',
-  },
-  {
-    cat: 'Cementacja',
-    q: 'Kolumny DSM?',
-    a: "Mechaniczne mieszanie gruntu świdrem z zaczynem cementowym 'in situ' (bez niszczenia strugą pod ciśnieniem).",
+    cat: 'Zbrojenie',
+    q: 'Co to jest PNEUSOL?',
+    a: 'Metoda zbrojenia gruntu przy użyciu zużytych opon samochodowych (całych lub pociętych).',
   },
 
-  // --- PYTANIE 2: GEOSYNTETYKI ---
+  // --- PYTANIE 2: CHARAKTERYSTYKA I ZASTOSOWANIE GEOSYNTETYKÓW ---
   {
     cat: 'Geosyntetyki',
     q: 'Geowłókniny vs Geotkaniny?',
-    a: 'Włókniny: włókna łączone igłowaniem/termicznie (filtracja/separacja). Tkaniny: tkane (wysoka wytrzymałość na rozciąganie).',
+    a: 'Włókniny: filtracja i separacja (włókna łączone mechanicznie/termicznie). Tkaniny: wzmacnianie (tkane, wysoka wytrzymałość).',
   },
   {
     cat: 'Geosyntetyki',
-    q: 'Georuszty - główna funkcja?',
-    a: 'ZBROJENIE. Oczka blokują ziarna kruszywa (interlocking), co drastycznie zwiększa nośność podłoża.',
+    q: 'Co to są Geodzianiny i Geomat?',
+    a: 'Dzianiny: drenaż i wzmacnianie (struktury oczkowe). Maty: ochrona przeciwerozyjna skarp przed spływem wody.',
   },
   {
     cat: 'Geosyntetyki',
-    q: 'Geomembrany?',
-    a: 'Całkowita nieprzepuszczalność. Służą jako bariery dla cieczy i gazów (np. na wysypiskach).',
+    q: 'Georuszty drenażowe vs Geosiatki?',
+    a: 'Ruszty drenażowe: odprowadzanie wody w płaszczyźnie. Siatki: wzmacnianie warstw asfaltowych.',
   },
   {
     cat: 'Geosyntetyki',
-    q: 'Bariery iłowe (GCL)?',
-    a: 'Bentonit między dwiema warstwami geowłókniny. Pęcznieje pod wpływem wody, tworząc szczelną barierę.',
+    q: 'Geomembrany vs Bariery iłowe (GCL)?',
+    a: 'Geomembrany: arkusze tworzywa. GCL: bentonit między geowłókninami (pęcznieje tworząc uszczelnienie).',
+  },
+
+  // --- PYTANIE 3: METODY WZMACNIANIA PODŁOŻA ---
+  // SEKCJA: ZAGĘSZCZANIE (GRUNTY NIESPOISTE)
+  {
+    cat: 'Zagęszczanie',
+    q: 'Menard, RIC, wibroflotacja, wybuchy - jakie grunty?',
+    a: 'Stosowane wyłącznie dla GRUNTÓW NIESPOISTYCH (piaski, żwiry). Wykorzystują dużą przepuszczalność gruntu.',
   },
   {
-    cat: 'Geosyntetyki',
-    q: 'Zastosowanie Geomat?',
-    a: 'Ochrona przeciwerozyjna skarp i zboczy przed spływem powierzchniowym wody.',
+    cat: 'Zagęszczanie',
+    q: 'Mechanizm metody Menarda i RIC?',
+    a: 'Menard: zrzucanie ciężarów (fala uderzeniowa). RIC (impulsowe): szybkie uderzenia młota hydraulicznego w stopę.',
+  },
+  {
+    cat: 'Zagęszczanie',
+    q: 'Wibroflotacja i walce inne niż cylindryczne?',
+    a: 'Wibroflotacja: wibrator wgłębny + płuczka. Walce wieloboczne: dynamiczny nacisk punktowy na nasyp.',
+  },
+
+  // SEKCJA: WYMIANA (GRUNTY SŁABE I ORGANICZNE)
+  {
+    cat: 'Wymiana',
+    q: 'Pale piaskowe i Kolumny GEC - jakie grunty?',
+    a: 'Dla GRUNTÓW ORGANICZNYCH i SŁABYCH (torfy, namuły). GEC posiada otulinę, która ogranicza boczne rozpieranie.',
+  },
+  {
+    cat: 'Wymiana',
+    q: 'Wymiana dynamiczna i materace?',
+    a: 'Wymiana dynamiczna: wybicie kraterów i wbicie kruszywa. Materace: warstwy kruszywa z georusztem pod nasypem.',
+  },
+
+  // SEKCJA: PREKONSOLIDACJA (GRUNTY SPOISTE)
+  {
+    cat: 'Prekonsolidacja',
+    q: 'Dreny taśmowe i Elektroosmoza - jakie grunty?',
+    a: 'Dla GRUNTÓW SPOISTYCH (gliny, iły). Przyspieszają wyciskanie wody z porów (elektroosmoza używa prądu).',
+  },
+
+  // SEKCJA: CEMENTACJA I DSM (RÓŻNE GRUNTY)
+  {
+    cat: 'Cementacja',
+    q: 'Nasycanie vs Szczelinowanie vs Zagęszczanie?',
+    a: 'Nasycanie: pory (żwiry). Szczelinowanie: rozrywanie (gliny). Zagęszczanie: balon z gęstej mieszanki rozpierający grunt.',
+  },
+  {
+    cat: 'Cementacja',
+    q: 'Jet-grouting (metoda niszczenia) - jakie grunty?',
+    a: 'Metoda UNIWERSALNA (każdy grunt). Struga pod wysokim ciśnieniem niszczy strukturę i tworzy gruntobeton.',
+  },
+  {
+    cat: 'Cementacja',
+    q: 'Kolumny DSM - jakie grunty?',
+    a: 'Grunty słabe, spoiste i organiczne. Mechaniczne mieszanie gruntu z cementem bez usuwania urobku.',
   },
 ];
 
